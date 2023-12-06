@@ -1,6 +1,12 @@
 Getting Started
 ====
 - install using directions below
+- files must be in /root
+- rhel 9.2 files are in /root/rhel92downloads/ which contains:
+  - redhatlinux.sha256 ## contains checksum of all iso and qcow2 files
+  - *-boot.iso
+  - *-dvd.iso
+  - *-kvm.qcow2
 
 Dell
 ====
