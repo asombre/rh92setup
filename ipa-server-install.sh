@@ -19,7 +19,7 @@ firewall-cmd --permenant --add-service ldaps
 #88,464 --add-port 88/tcp --add-port 464/tcp
 firewall-cmd --permanent --add-service kerberos
 #53 --add-port 53/tcp
-firewall-cmd --permanent --add-service bind
+firewall-cmd --permanent --add-service dns
 
 ## udp
 # 88, 464 kerberos
