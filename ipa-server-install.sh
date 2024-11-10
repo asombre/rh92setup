@@ -30,7 +30,7 @@ firewall-cmd --permanent --add-port 53/udp
 
 firewall-cmd --reload
 
-ipa dnszone-add red.hat --name-from-ip=x.x.x.0/24
+ipa dnszone-add --name-from-ip=x.x.x.0/24
 ipa dnsrecord-add x.x.x.in-addr.arpa. 21 --ptr-rec=ipaclient1.example.com.
 ipa dnsrecord-add red.hat ipaclient1 --a-rec=x.x.x.21
 
